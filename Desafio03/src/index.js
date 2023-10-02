@@ -29,7 +29,8 @@ class Hero {
     }
 }
 
-let actionHero = new Hero("Mur", 24, "Guerreiro")
+let actionHero = new Hero()
+
 
 actionHero.typeHero("Guerreiro")
 actionHero.typeHero("Mago")
